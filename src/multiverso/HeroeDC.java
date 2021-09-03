@@ -12,6 +12,7 @@ package multiverso;
 public class HeroeDC  extends Heroe{
 
     public HeroeDC() {
+        
     }
-    
+ 
 }

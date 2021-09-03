@@ -9,57 +9,7 @@ package multiverso;
  *
  * @author Kevin Borge
  */
-public abstract class Villano {
-    private  String Tipo;
-    private String Nombre;
-    private int Danno;
-    private int Vida;
-    private int defensa;
-    
-    public Villano() {
-        
-    }
-
-    public String getTipo() {
-        return Tipo;
-    }
-
-    public void setTipo(String Tipo) {
-        this.Tipo = Tipo;
-    }
-
-    public String getNombre() {
-        return Nombre;
-    }
-
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
-    }
-
-    public int getDanno() {
-        return Danno;
-    }
-
-    public void setDanno(int Danno) {
-        this.Danno = Danno;
-    }
-
-    public int getVida() {
-        return Vida;
-    }
-
-    public void setVida(int Vida) {
-        this.Vida = Vida;
-    }
-
-    public int getDefensa() {
-        return defensa;
-    }
-
-    public void setDefensa(int defensa) {
-        this.defensa = defensa;
-    }
-   
+public abstract class Villano extends Personaje{
     
     
 }

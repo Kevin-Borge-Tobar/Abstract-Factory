@@ -11,6 +11,12 @@ package multiverso;
  */
 public class Marvel implements Franquicia {
 
+
+
+public Marvel(){
+
+
+}
     @Override
     public Heroe CrearHeroe() {
         return new HeroeMarvel();
